@@ -12,7 +12,6 @@ Here's an example of how to use hashing in Java:
 
 import java.util.HashMap;
 import java.util.Map;
-
 public class HashingExample {
     public static void main(String[] args) {
         // Initialize a new HashMap to store names and ages
