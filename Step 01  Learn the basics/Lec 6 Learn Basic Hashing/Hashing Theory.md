@@ -1,16 +1,16 @@
-Hashing in Java
+**Hashing in Java**  
 Hashing is a technique used to uniquely identify objects and store them in data structures like hash tables. It involves converting an input (or 'key') into a fixed-size string of bytes using a hash function. The output is typically a hash code, which is used to quickly find data.
 
-Key Concepts:
-Hash Function: Maps data of arbitrary size to fixed-size values.
-Hash Code: The result of the hash function.
-Hash Collision: Occurs when two different inputs produce the same hash code.
-Java provides built-in hashing through the hashCode() method in the Object class. Collections like HashMap and HashSet use hash codes for fast data retrieval.
+**Key Concepts:**  
+Hash Function: Maps data of arbitrary size to fixed-size values.  
+Hash Code: The result of the hash function.  
+Hash Collision: Occurs when two different inputs produce the same hash code.  
+Java provides built-in hashing through the hashCode() method in the Object class. Collections like HashMap and HashSet use hash codes for fast data retrieval.  
 
-Example
-Here's an example of how to use hashing in Java:
+Example  
+Here's an example of how to use hashing in Java:  
 
-import java.util.HashMap;
+```import java.util.HashMap;
 import java.util.Map;
 public class HashingExample {
     public static void main(String[] args) {
@@ -113,11 +113,14 @@ public class HashingExample {
         System.out.println("HashMap size after clear operation: " + map.size());
     }
 }
-Explanation
-> HashMap: A collection that stores key-value pairs. It uses hashing to efficiently locate a key-value pair.
-> hashCode(): Method that returns an integer hash code for an object. Different objects might have the same hash code, leading to hash collisions.
-> Handling Collisions: HashMap handles collisions using separate chaining or open addressing (internally managed).
-Key Points
->Hash functions should distribute hash codes uniformly.
->Collisions are inevitable but should be minimized.
->Good hash functions reduce the chance of collisions and enhance performance.
+```
+
+**Explanation**
+- HashMap: A collection that stores key-value pairs. It uses hashing to efficiently locate a key-value pair.
+- hashCode(): Method that returns an integer hash code for an object. Different objects might have the same hash code, leading to hash collisions.
+- Handling Collisions: HashMap handles collisions using separate chaining or open addressing (internally managed).
+
+**Key Points**
+- Hash functions should distribute hash codes uniformly.
+- Collisions are inevitable but should be minimized.
+- Good hash functions reduce the chance of collisions and enhance performance.
