@@ -7,7 +7,7 @@ Hash Code: The result of the hash function.
 Hash Collision: Occurs when two different inputs produce the same hash code.  
 Java provides built-in hashing through the hashCode() method in the Object class. Collections like HashMap and HashSet use hash codes for fast data retrieval.  
 
-Example  
+**Example**  
 Here's an example of how to use hashing in Java:  
 
 ```import java.util.HashMap;
