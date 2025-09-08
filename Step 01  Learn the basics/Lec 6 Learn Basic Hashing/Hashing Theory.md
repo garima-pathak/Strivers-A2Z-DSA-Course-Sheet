@@ -2,10 +2,10 @@
 Hashing is a technique used to uniquely identify objects and store them in data structures like hash tables. It involves converting an input (or 'key') into a fixed-size string of bytes using a hash function. The output is typically a hash code, which is used to quickly find data.
 
 **Key Concepts:**  
-Hash Function: Maps data of arbitrary size to fixed-size values.  
-Hash Code: The result of the hash function.  
-Hash Collision: Occurs when two different inputs produce the same hash code.  
-Java provides built-in hashing through the hashCode() method in the Object class. Collections like HashMap and HashSet use hash codes for fast data retrieval.  
+- Hash Function: Maps data of arbitrary size to fixed-size values.  
+- Hash Code: The result of the hash function.  
+- Hash Collision: Occurs when two different inputs produce the same hash code.  
+- Java provides built-in hashing through the hashCode() method in the Object class. Collections like HashMap and HashSet use hash codes for fast data retrieval.  
 
 **Example**  
 Here's an example of how to use hashing in Java:  
