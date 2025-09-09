@@ -84,7 +84,7 @@ public class HashingExample {
         System.out.println("Updated age of Bharat: " + map.get("Bharat"));
         
         // Remove an element from the map
-        // Time complexity: O(1) on average
+        // Time complexity: O(1) on average.
         map.remove("Raj");
         System.out.println("HashMap after removing 'Raj': " + map);
         System.out.println("HashMap size after removal: " + map.size());
