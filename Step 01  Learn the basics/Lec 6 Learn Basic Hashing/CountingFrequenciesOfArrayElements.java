@@ -1,7 +1,6 @@
 class Solution {
     public List<List<Integer>> countFrequencies(int[] nums) {
         HashMap<Integer, Integer> map = new HashMap<>();
-		int[] arr = new int[nums.length];
 		
 		for (int i = 0; i < nums.length; i++) {
 			int k = 1;
