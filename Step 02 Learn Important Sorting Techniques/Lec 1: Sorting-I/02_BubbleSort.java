@@ -21,6 +21,6 @@ class Solution {
 /*
 Time Complexity :
  - Worst case, Avg. case :  O(n^2)
- - Best case : O(n)
+ - Best case: O(n)
 Space Complexity = O(1)
 */
