@@ -14,3 +14,4 @@ class Solution {
         tempFact(n, i+1, fact*(i+1),list);
     }
 }
+
