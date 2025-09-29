@@ -41,4 +41,4 @@ public class Quick_Sort {
 }
 
 
-// Time Complexity = O(n^2), Space Complexity = O(n)
+// Time Complexity = O(n * logn), Space Complexity = O(1)
